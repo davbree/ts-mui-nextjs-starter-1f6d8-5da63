@@ -155,7 +155,7 @@ sections:
             label: Read the Docs
             url: 'https://docs.stackbit.com/'
       - type: Card
-        title: Third Card Title
+        title: Third Card Title!
         image:
           type: Image
           url: >-
