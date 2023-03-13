@@ -28,7 +28,7 @@ sections:
       url: /images/hero.svg
       altText: Hero section image
   - type: CardsSection
-    title: Remote title!!....??.
+    title: Another section
     subtitle: Section subtitle here
     items:
       - type: Card
