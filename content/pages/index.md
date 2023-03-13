@@ -12,12 +12,6 @@ sections:
       more.](https://docs.stackbit.com/how-to-guides/local-development/)
     actions:
       - type: Button
-        label: Learn more
-        url: /
-        size: large
-        variant: text
-        color: secondary
-      - type: Button
         label: Start Building
         url: 'https://docs.stackbit.com/getting-started/'
         size: large
