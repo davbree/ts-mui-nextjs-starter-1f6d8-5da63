@@ -3,7 +3,7 @@ import { Model } from "@stackbit/types";
 export const HeroSection: Model =  {
     name: 'HeroSection',
     type: 'object',
-    label: 'Hero.',
+    label: 'Hero',
     labelField: 'title',
     thumbnail: 'https://assets.stackbit.com/components/models/thumbnails/default.png',
     groups: ['sectionComponent'],
