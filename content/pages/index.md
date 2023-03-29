@@ -4,8 +4,8 @@ type: Page
 slug: /
 sections:
   - type: HeroSection
-    title: Stackbit
-    subtitle: 'Featuring TypeScript, Next.js, MUI v5 & Emotion'
+    title: Stackbit...!
+    subtitle: 'Featuring TypeScript, Next.js, MUI v5 & Emotion..'
     text: >
       **This** is the HeroSection component. You can visually edit this
       component & add more sections while developing locally. [Learn
