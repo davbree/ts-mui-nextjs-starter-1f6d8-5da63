@@ -21,5 +21,11 @@ sections:
         size: large
         variant: outlined
         color: primary
+      - type: Button
+        label: Learn more
+        url: /
+        size: medium
+        variant: text
+        color: primary
 myId: doc.6375ccae80fd4bc5
 ---
