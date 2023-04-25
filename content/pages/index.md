@@ -3,7 +3,7 @@ type: Page
 title: Empty page
 sections:
   - type: HeroSection
-    title: Abcjjjjj
+    title: Abcjjjjj!!!
     subtitle: The section subtitle
     text: >-
       Add more sections by hovering above or below this one and clicking '+ Add
