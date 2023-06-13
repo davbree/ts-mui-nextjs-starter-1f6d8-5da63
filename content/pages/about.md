@@ -4,7 +4,7 @@ type: Page
 slug: about
 sections:
   - type: HeroSection
-    title: Example for H2 headline..!..!/..!!..11
+    title: Example for H2 headlin
     subtitle: This is the subtitle...
     text: >
       This is **Markdown** *text*.
@@ -41,4 +41,5 @@ sections:
       type: Image
       url: /_static/app-assets/images/hero.svg
       altText: Hero section image
+id: doc.15ca3ce2297e4100
 ---
