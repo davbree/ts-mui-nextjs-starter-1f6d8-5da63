@@ -1,4 +1,3 @@
-abc
 
 module.exports = {
     typescript: { ignoreBuildErrors: false },
