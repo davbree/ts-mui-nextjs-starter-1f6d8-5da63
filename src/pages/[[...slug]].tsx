@@ -52,6 +52,6 @@ export default Page;
 // };
 
 export const getServerSideProps = async ({ params }) => {
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+    await new Promise((resolve) => setTimeout(resolve, 100000));
     return { props: { page: {}, siteConfig: {} } };
 }
