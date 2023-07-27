@@ -37,16 +37,21 @@ const Page: React.FC<Props> = ({ page, siteConfig }) => {
 
 export default Page;
 
-export const getStaticPaths: GetStaticPaths = () => {
-    const pages = pagesByType('Page');
-    return {
-        paths: Object.keys(pages),
-        fallback: false
-    };
-};
+// export const getStaticPaths: GetStaticPaths = () => {
+//     const pages = pagesByType('Page');
+//     return {
+//         paths: Object.keys(pages),
+//         fallback: false
+//     };
+// };
 
-export const getStaticProps: GetStaticProps<Props, { slug: string[] }> = ({ params }) => {
-    const url = '/' + (params?.slug || []).join('/');
-    const page = urlToContent(url) as types.Page;
-    return { props: { page, siteConfig: siteConfig() } };
-};
+// export const getStaticProps: GetStaticProps<Props, { slug: string[] }> = ({ params }) => {
+//     const url = '/' + (params?.slug || []).join('/');
+//     const page = urlToContent(url) as types.Page;
+//     return { props: { page, siteConfig: siteConfig() } };
+// };
+
+export const getServerSideProps = async ({ params }) => {
+    await new Promise((resolve) => setTimeout(resolve, 1000));
+    return { props: { page: {}, siteConfig: {} } };
+}
