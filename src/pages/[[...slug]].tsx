@@ -50,3 +50,8 @@ export const getStaticProps: GetStaticProps<Props, { slug: string[] }> = ({ para
     const page = urlToContent(url) as types.Page;
     return { props: { page, siteConfig: siteConfig() } };
 };
+
+// export const getServerSideProps = async ({ params }) => {
+//     await new Promise((resolve) => setTimeout(resolve, 1000));
+//     return { props: { page: {}, siteConfig: {} } };
+// }
